@@ -27,15 +27,27 @@ function Home(){
 
         <div className="divisore">
             <div class="row">
-             <div class="col-8">col-8</div>
-              <div class="col-4">col-4</div>
+             <div class="col-8"> 
+                <div className='overlay-divisore'>
+                  <h1>Simply The Best</h1>
+                  <h3>Reasons for Choosing US</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab.</p>
+                  <br />
+                  </div> 
+                </div>
+              <div class="col-4">
+              <div class="item-hints">
+                    <div class="hint" data-position="4">
+                      <span class="hint-radius"></span>
+                      <span class="hint-dot">Tip</span>
+                      <div class="hint-content do--split-children">
+                        <p>Use Navbar to navigate the website quickly and easily.</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
             </div>
-          <div className='overlay-divisore'>
-          <h1>Simply The Best</h1>
-          <h3>Reasons for Choosing US</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab.</p>
-          <br />
-          </div> 
+         
         </div>
 
         <div id="paragrafo2" className='paragrafo'>
