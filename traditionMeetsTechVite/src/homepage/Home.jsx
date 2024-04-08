@@ -42,7 +42,7 @@ function Home(){
               <div class="item-hints">
                   <div class="hint" data-position="4">
                     <span class="hint-radius"></span>
-                    <span class="hint-dot">Tip</span>
+                    <span class="hint-dot">Vai allo studio</span>
                     <div class="hint-content do--split-children">
                       <p>Use Navbar to navigate the website quickly and easily.</p>
                     </div>
