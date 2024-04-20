@@ -12,7 +12,10 @@
 }
 
 :root {
-  --colore-bianco: #fff; 
-  --colore-nero: #333; 
+  --colore-bianco: #d8d9cc; 
+  --colore-nero: #20242B; 
+  --colore-blu:#0D2C66; 
+  --colore-beige: #BAB5A0;
+  --colore-terra:#BF9C88;
   --font-testo: 'Open Sans', sans-serif;
 }
