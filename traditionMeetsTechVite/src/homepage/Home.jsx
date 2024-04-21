@@ -21,8 +21,8 @@ function Home(){
       </div>
 
       <div id="sezione" className='sezione'>
-        <div className='paragrafo'>
-        <h4>La storia del lavoro</h4>
+        <div className='paragrafo' >
+        <h4>Titolo o testo, poi decidiamo</h4>
         </div>
       </div>
 
@@ -34,14 +34,14 @@ function Home(){
       </div>
 
       <div id="sezione" className='sezione'>
-          <div className='paragrafo'>
+          <div className='paragrafo' id='paragrafoEnd'>
           <h3>Questo è il paragrafo di destinazione</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab.</p>
           </div>
       </div>
 
 
-      <div>
+      <div  id="sezione" className='sezione'>
 
         <div class="demo coursemeal">
             <div class="coursemeal__div ">
@@ -89,10 +89,37 @@ function Home(){
 
           </div>
       </div>
+
+      <div id="sezione3" className='sezione'>
+          <div className='paragrafo'>
+          <h3>Questo è il paragrafo di destinazione</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab.</p>
+          </div>
+      </div>
     
+      <div id="sezione" className='sezione'>
+          <div className='paragrafo' id='paragrafoEnd'>
+          <h3>Questo è il paragrafo di destinazione</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab.</p>
+          </div>
+      </div>
        <div className="footer"> 
 
-        </div>
+              <div class="card text-center">
+                <div class="card-header">
+                  Featured
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Componenti del gruppo</h5>
+                  <p class="card-text">Colacicco Laura | Daniela Fabrizio | Manuel Flagelli </p>
+                  <button  onClick={scrollToParagraph}> 
+                     <span class="box"> Curiosità sul progetto!! </span>
+                  </button>
+                
+                </div>
+               
+              </div>
+      </div>
 
     </div>  
     );

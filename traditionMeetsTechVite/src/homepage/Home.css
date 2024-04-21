@@ -83,21 +83,21 @@
   }
   
   .box:hover:before {
-	border-color: var(--colore-nero);
+	border-color: var(--colore-blu);
 	height: 100%;
 	transform: translateX(0);
 	transition: .3s transform linear, .3s height linear .3s;
   }
   
   .box:hover:after {
-	border-color: var(--colore-nero);
+	border-color: var(--colore-terra);
 	height: 100%;
 	transform: translateX(0);
 	transition: .3s transform linear, .3s height linear .5s;
   }
   
   button {
-	color: var(--colore-nero);
+	color: var(--colore-blu);
 	text-decoration: none;
 	cursor: pointer;
 	outline: none;
@@ -113,16 +113,22 @@
 }
 .sezione h4{
 	font-family: var(--font-testo);
-	font-size: 80px;
-	margin-bottom: 30px;
 	align-self: center;
 	text-align: center;
+	justify-content: center;
 	font-size: 50px;
+	margin: 0;
+	padding: 0;
+}
+#paragrafoEnd{
+	align-items: flex-end;
 }
 #sezione2{
-    align-items: flex-end;
 	background-color: var(--colore-blu);
 	color: var(--colore-bianco);
+}
+#sezione3{
+	background-color: var(--colore-terra);
 }
 
 .paragrafo{
@@ -130,23 +136,40 @@
     flex-direction: column;
     align-items: flex-start;
     text-align: justify;
-	width: 80%;
-	margin-left: 10%;
-	margin-top: 10%;
-	margin-bottom: 10%;
+	width: 90%;
+	padding-top: 10%;
+	padding-left: 10%;
+	padding-bottom: 10%;
+
+
 }
+/*footer */
   .footer {
-	background-color: var(--colore-nero);
-	height: 200px;
+	background-color: var(--colore-blu);
+	height: 20%;
 	position: relative;
 	border-radius: 85% 85% 0 0/ 30%;
 	overflow: hidden; /* Nasconde eventuali contenuti che superano il bordo curvo */
+	box-shadow: 0 -5px 15px rgba(13, 44, 102, 0.5);
+}
+ .footer .card{
+background-color: var(--colore-blu);
+color: var(--colore-bianco);
+ }
+ .footer .box{
+	color: var(--colore-bianco);
+ }
+ .footer .box:hover:before {
+	border-color: var(--colore-terra);
   }
 
- 
+.footer .card .card-header{
+	border-bottom: 1px dashed var(--colore-terra);
+}
+.footer .card .card-body{
+	font-family: var(--font-testo);
+}
   /*immagini carine*/
-
-/* ===== FOR DEMO ===== */
 .demo {
     height: 500px; 
     width: 1200px;
@@ -155,9 +178,9 @@
     -moz-box-shadow: -1px 9px 18px -5px rgba(17,17,17,1);
     box-shadow: -1px 9px 18px -5px rgba(17,17,17,1);
     overflow: hidden;
-    background-color: #000;
+    background-color: var(--colore-blu);
     position: relative;
-
+	margin-bottom: 10%;
 }
 
 .demo-description {
@@ -166,7 +189,7 @@
 }
 
 .demo-description__title {
-    font-family: 'Abril Fatface', cursive;
+    font-family: var(--font-testo);
     font-size: 40px;
     letter-spacing: 1.5px;
     margin: 0;
@@ -197,7 +220,7 @@
 }
 
 .coursemeal-info {
-    background-color: rgba(0,0,0, 0.3);
+    background-color: rgba(13, 44, 102, 0.5);
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -213,9 +236,9 @@
 
 .coursemeal-info__link:link,
 .coursemeal-info__link:visited {
-    font-family: 'Abril Fatface', cursive;
+    font-family: var(--font-testo);
     font-size: 30px;
-    color: #fff;
+    color: var(--colore-bianco);
     text-align: center;
     letter-spacing: 1.8px;
     margin: 0;
@@ -226,10 +249,9 @@
 
 .coursemeal__div:hover .coursemeal-info {
     height: 100%;
-    background-color: rgba(0,0,0, 0.6);
+    background-color: rgba(13, 44, 102, 0.6);
+
 }
-
-
 
 @media only screen and (max-width: 1200px) {
     body {
