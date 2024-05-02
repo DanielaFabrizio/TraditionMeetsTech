@@ -1,5 +1,7 @@
 import './JobsList.css';
-
+import Header from './Header.jsx';
+import Footer from './Footer.jsx';
+import Paragrafo from './Paragrafo.jsx';
 function JobsList(){
     function scrollToParagraph() {
         var paragraph = document.getElementById("paragrafo");
@@ -8,22 +10,13 @@ function JobsList(){
 
     return (
     <div className="body">
-        <div className="header">
-            <div class="overlay">
-            <h1>Simply The Best</h1>
-            <h3>Reasons for Choosing US</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab.</p>
-            <br />
-            <button  onClick={scrollToParagraph}> 
-                    <span class="box"> Hover! </span>
-            </button>
-            </div>
-        </div>
+         <Header onScroll={scrollToParagraph}
+     urlBackground='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRXK0LlzC4X5sn_v2mKFXaiWHeMH9bFDcOOw&s'/>
 
-        <div id="paragrafo" className='paragrafo'>
-            <h3>Questo è il paragrafo di destinazione</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab.</p>
-        </div>
+
+        <Paragrafo text="testo"
+        textTitle="titolo"
+        sezioneId="sezione"/>
 
         <div className="divisore">
             <div className="colonna">
@@ -66,14 +59,11 @@ function JobsList(){
             </div>
         </div>
 
-        <div id="paragrafo2" className='paragrafo'>
-            <h3>Questo è il paragrafo di destinazione</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab.</p>
-        </div>
+        <Paragrafo text="lorem "
+        textTitle=" titolooo"
+        sezioneId=""/>
 
-        <div className="footer"> 
-
-        </div>
+        <Footer onScroll={scrollToParagraph}/>
 
     </div>  
     );
