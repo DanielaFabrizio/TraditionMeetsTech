@@ -1,20 +1,5 @@
-<<<<<<< HEAD
-=======
-*{padding: 0; margin: 0; box-sizing: border-box;}
-
-/* HEADER */
-.header {
-	background: url('https://www.unifor.br/documents/20143/573160/foto-materia-unifor-noticias-futuro-logo-ali-getty-images-800.jpg/6b13a8f7-bed7-5c38-effb-8d3f02982e45?t=1620930442724');
-	width: 100%;
-	height: auto;
-	background-size: cover;
-	background-attachment: fixed;
-}
->>>>>>> f04e0943a9219a919ee3fcd0db9a0d195599a9b8
 
 /* PARAGRAFI*/
-
-
 
 #paragrafo2{
     align-items: flex-end;
