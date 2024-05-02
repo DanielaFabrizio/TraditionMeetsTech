@@ -1,4 +1,7 @@
+import Footer from './Footer.jsx';
+import Header from './Header.jsx';
 import './Home.css';
+import Paragrafo from './Paragrafo.jsx';
 
 function Home(){
     function scrollToParagraph() {
@@ -8,30 +11,19 @@ function Home(){
 
     return (
     <div className="body">
-      <div className="header">
-        <div class="overlay">
-          <h1>Tradition Meets Tech</h1>
-          <h3>Reasons for Choosing US</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab.</p>
-          <br />
-          <button  onClick={scrollToParagraph}> 
-                <span class="box"> Hover! </span>
-          </button>
-        </div>
-      </div>
+     <Header onScroll={scrollToParagraph}
+     urlBackground='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRXK0LlzC4X5sn_v2mKFXaiWHeMH9bFDcOOw&s'/>
 
+      
       <div id="sezione" className='sezione'>
         <div className='paragrafo' >
         <h4>Titolo o testo, poi decidiamo</h4>
         </div>
       </div>
 
-      <div id="sezione2" className='sezione'>
-          <div className='paragrafo'>
-          <h3>Questo è il paragrafo di destinazione</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab.</p>
-          </div>
-      </div>
+      <Paragrafo text="testo"
+        textTitle="titolo"
+        sezioneId="sezione2"/>
 
       <div id="sezione" className='sezione'>
           <div className='paragrafo' id='paragrafoEnd'>
@@ -90,36 +82,15 @@ function Home(){
           </div>
       </div>
 
-      <div id="sezione3" className='sezione'>
-          <div className='paragrafo'>
-          <h3>Questo è il paragrafo di destinazione</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab.</p>
-          </div>
-      </div>
+      <Paragrafo text="testo"
+        textTitle="titolo"
+        sezioneId="sezione3"/>
     
-      <div id="sezione" className='sezione'>
-          <div className='paragrafo' id='paragrafoEnd'>
-          <h3>Questo è il paragrafo di destinazione</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab.</p>
-          </div>
-      </div>
-       <div className="footer"> 
+      <Paragrafo text="testo"
+        textTitle="titolo"
+        sezioneId="sezione"/>
 
-              <div class="card text-center">
-                <div class="card-header">
-                  Featured
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Componenti del gruppo</h5>
-                  <p class="card-text">Colacicco Laura | Daniela Fabrizio | Manuel Flagelli </p>
-                  <button  onClick={scrollToParagraph}> 
-                     <span class="box"> Curiosità sul progetto!! </span>
-                  </button>
-                
-                </div>
-               
-              </div>
-      </div>
+      <Footer onScroll={scrollToParagraph}/>
 
     </div>  
     );
