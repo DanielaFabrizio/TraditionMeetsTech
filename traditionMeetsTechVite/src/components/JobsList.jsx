@@ -52,8 +52,8 @@ function JobsList(){
                     </div>
                 </div>
                 <div className="row">
-                    <div class="cardJob">
-                        <p class="c-txt">Hover Me</p>
+                    <div class="cardJob" id="cardJob6">
+                        <p class="c-txt">Studente</p>
                     </div>
                 </div>
             </div>

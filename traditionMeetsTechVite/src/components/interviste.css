@@ -23,7 +23,7 @@
     padding: 15px;
     text-align: justify;
     background: var(--colore-terra); /* For browsers that do not support gradients */
-    background: linear-gradient(to top right, rgba(191, 156, 136, 1)50% , rgba(13, 44, 102, 1) ); /* Standard syntax */
+    background: linear-gradient(to top right, rgba(191, 156, 136, 1)40% , rgba(13, 44, 102, 1) ); /* Standard syntax */
     margin: 40px auto;
     border-radius: 0px 50px 0px 50px;
   }
