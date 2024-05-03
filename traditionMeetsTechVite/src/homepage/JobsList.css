@@ -1,14 +1,5 @@
 *{padding: 0; margin: 0; box-sizing: border-box;}
 
-/* HEADER */
-.header {
-	background: url('https://www.unifor.br/documents/20143/573160/foto-materia-unifor-noticias-futuro-logo-ali-getty-images-800.jpg/6b13a8f7-bed7-5c38-effb-8d3f02982e45?t=1620930442724');
-	width: 100%;
-	height: auto;
-	background-size: cover;
-	background-attachment: fixed;
-}
-
 /* PARAGRAFI*/
 
 .paragrafo{
@@ -52,9 +43,9 @@
     align-items: center;
     justify-content: center;
     font-size: 2em;
-    color: var(--colore-blu);
+    color: var(--colore-bianco);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-radius: 40px;
+    border-radius: 30px;
     cursor: pointer;
     position: relative;
     transition: all 0.7s ease-in-out;
@@ -84,16 +75,29 @@
 }
 
 .cardJob:hover {
-    box-shadow: 1px -10px 40px 40px var(--colore-blu);
+    box-shadow: 4px -10px 30px 15px var(--colore-blu);
     color: #f3f3f3;
 }
 
-.footer {
-    background-color: var(--colore-nero);
-    height: 200px;
-    position: relative;
-    border-radius: 85% 85% 0 0/ 30%;
-    overflow: hidden;
+#cardJob1 {
+    background-image: url('https://mlsuaxfgcvx0.i.optimole.com/w:1200/h:600/q:mauto/f:best/https://hammerforniture.com/wp-content/uploads/2023/11/falegname-pialla.png');
+	background-size: cover;
+}
+#cardJob2{
+    background-image: url('https://img.freepik.com/premium-photo/close-up-cobbler-working-with-leather-textile_951562-5463.jpg');
+	background-size: cover;
+}
+#cardJob3 {
+    background-image: url('https://us.123rf.com/450wm/fotomathe/fotomathe2010/fotomathe201000141/157471463-strumenti-artigianali-in-pelle-sul-vecchio-tavolo-di-legno-laboratorio-artigianale-di-pelletteria.jpg?ver=6');
+	background-size: cover;
+}
+#cardJob4 {
+    background-image: url('https://static.vecteezy.com/ti/foto-gratuito/p2/26795511-agricoltori-mani-al-di-sopra-di-azienda-agricola-impianti-realistico-immagine-ultra-hd-alto-design-molto-dettagliato-gratuito-foto.jpg');
+	background-size: cover;
+}
+#cardJob5{
+	background-image: url('https://img.freepik.com/premium-photo/baker-prepares-bread-bakery_670382-11984.jpg');
+	background-size: cover;
 }
 
 
