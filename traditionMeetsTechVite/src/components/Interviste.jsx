@@ -4,6 +4,7 @@ import Header from './Header.jsx';
 import Paragrafo from './Paragrafo.jsx';
 import Question from './Question.jsx';
 import Answer from './Answer.jsx';
+import Footer from './Footer.jsx';
 
 export default function Interviste({props}){
    
@@ -20,11 +21,18 @@ export default function Interviste({props}){
           
           <Question question="Qual è la capitale dell'Italia?" sezioneId="domanda1" />
           <Answer answer="ciao a tutti" sezioneId="risposta1"/>
+
+          <Question question="Qual è la capitale dell'Italia?" sezioneId="domanda1" />
+          <Answer answer="ciao a tutti" sezioneId="risposta1"/>
+
+          <Question question="Qual è la capitale dell'Italia?" sezioneId="domanda1" />
+          <Answer answer="ciao a tutti" sezioneId="risposta1"/>
           
         </div>
       
       
-      
+        <Footer />
+
       
       
         {/* // <div>

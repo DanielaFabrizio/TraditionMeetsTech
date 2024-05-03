@@ -8,7 +8,7 @@ function AppRouter() {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<JobsList />} />
+                <Route path="/" element={<Interviste />} />
                 <Route path="/h" element={<HomePage />} />
             </Routes>
         </Router>
