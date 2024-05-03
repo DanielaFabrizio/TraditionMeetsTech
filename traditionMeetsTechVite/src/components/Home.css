@@ -32,6 +32,8 @@
 }
 
 .body{
+    display: flex;
+    flex-direction: column;
 	background-color: var(--colore-bianco);
 }
 /*bottone*/

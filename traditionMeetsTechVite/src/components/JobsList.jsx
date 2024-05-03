@@ -1,8 +1,7 @@
 import './JobsList.css';
-import Footer from './Footer.jsx';
 import Header from './Header.jsx';
+import Footer from './Footer.jsx';
 import Paragrafo from './Paragrafo.jsx';
-
 function JobsList(){
     function scrollToParagraph() {
         var paragraph = document.getElementById("paragrafo");
@@ -11,14 +10,13 @@ function JobsList(){
 
     return (
     <div className="body">
-        <Header onScroll={scrollToParagraph}
-        urlBackground='https://www.unifor.br/documents/20143/573160/foto-materia-unifor-noticias-futuro-logo-ali-getty-images-800.jpg/6b13a8f7-bed7-5c38-effb-8d3f02982e45?t=1620930442724'/>
+         <Header onScroll={scrollToParagraph}
+     urlBackground='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRXK0LlzC4X5sn_v2mKFXaiWHeMH9bFDcOOw&s'/>
 
 
-        <div id="paragrafo" className='paragrafo'>
-            <h3>Questo è il paragrafo di destinazione</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab.</p>
-        </div>
+        <Paragrafo text="testo"
+        textTitle="titolo"
+        sezioneId="sezione"/>
 
         <div className="divisore">
             <div className="colonna">
@@ -61,10 +59,9 @@ function JobsList(){
             </div>
         </div>
 
-        <div id="paragrafo2" className='paragrafo'>
-            <h3>Questo è il paragrafo di destinazione</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab.</p>
-        </div>
+        <Paragrafo text="lorem "
+        textTitle=" titolooo"
+        sezioneId=""/>
 
         <Footer onScroll={scrollToParagraph}/>
 

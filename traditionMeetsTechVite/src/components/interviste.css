@@ -1,0 +1,13 @@
+.contIntervista{  
+   display: flex;
+   flex-direction: column;
+    background-color: var(--colore-terra);
+}
+.elementiIntervista{
+    align-self: center;
+    border: 3px solid var(--colore-blu);
+    width: 70%;
+    box-shadow: 20px;
+    background-color: var(--colore-bianco);
+    margin: 2%;
+}
