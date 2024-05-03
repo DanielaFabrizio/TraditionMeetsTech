@@ -11,3 +11,31 @@
     background-color: var(--colore-bianco);
     margin: 2%;
 }
+
+.question .boxq {
+    width: 70%;
+    color: white;
+    padding: 15px;
+    text-align: justify;
+    background: #28B1C4; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #28B1C4, #0F1D1F); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #28B1C4, #0F1D1F); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #28B1C4, #0F1D1F); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #28B1C4, #0F1D1F); /* Standard syntax */
+    margin: 40px auto;
+    border-radius: 50px 0px 50px 0px;
+  }
+
+.answer .boxa {
+    width: 70%;
+    color: white;
+    padding: 15px;
+    text-align: justify;
+    background: #28B1C4; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #28B1C4, #0F1D1F); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #28B1C4, #0F1D1F); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #28B1C4, #0F1D1F); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #28B1C4, #0F1D1F); /* Standard syntax */
+    margin: 40px auto;
+    border-radius: 0px 50px 0px 50px;
+  }

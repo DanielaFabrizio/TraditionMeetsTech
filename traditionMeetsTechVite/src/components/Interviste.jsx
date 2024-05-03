@@ -2,6 +2,9 @@ import './interviste.css';
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 import Header from './Header.jsx';
 import Paragrafo from './Paragrafo.jsx';
+import Question from './Question.jsx';
+import Answer from './Answer.jsx';
+
 export default function Interviste({props}){
    
     return ( 
@@ -14,8 +17,47 @@ export default function Interviste({props}){
         sezioneId="sezione"/>
 
         <div className='contIntervista'>
-          <div className='elementiIntervista'>
-            <li>
+          
+          <Question question="Qual è la capitale dell'Italia?" sezioneId="domanda1" />
+          <Answer answer="ciao a tutti" sezioneId="risposta1"/>
+          
+        </div>
+      
+      
+      
+      
+      
+        {/* // <div>
+        //   <Tabs isFitted variant='enclosed'>
+        //   <TabList mb='1em'>
+        //     <Tab>Falegname</Tab>
+        //     <Tab>Fabbrica</Tab>
+        //     <Tab>Calzolaio</Tab>
+        //     <Tab>Agricoltore</Tab>
+        //     <Tab>Alimentari</Tab>
+        //   </TabList>
+        //   <TabPanels>
+        //     <TabPanel>
+        //       <p>Falegname</p>
+        //     </TabPanel>
+        //     <TabPanel>
+        //       <p>Fabbrica</p>
+        //     </TabPanel>
+        //     <TabPanel>
+        //       <p>Calzolaio</p>
+        //     </TabPanel>
+        //     <TabPanel>
+        //       <p>Agricoltore</p>
+        //     </TabPanel>
+        //     <TabPanel>
+        //       <p>Alimentari</p>
+        //     </TabPanel>
+        //   </TabPanels>
+        // </Tabs>
+        // </div> 
+        
+        
+        <li>
               Potrebbe descrivere in breve la natura del suo mestiere e come è entrato in questo campo di lavoro?
             </li>
               <p>hhhhhhhhhhhhhhhhhhhhhhhhhh</p>
@@ -60,42 +102,7 @@ export default function Interviste({props}){
 
             <h3>Domande specifiche:</h3>
             <li></li>
-            <li></li>
-            </div>
-        </div>
-      
-      
-      
-      
-      
-        {/* // <div>
-        //   <Tabs isFitted variant='enclosed'>
-        //   <TabList mb='1em'>
-        //     <Tab>Falegname</Tab>
-        //     <Tab>Fabbrica</Tab>
-        //     <Tab>Calzolaio</Tab>
-        //     <Tab>Agricoltore</Tab>
-        //     <Tab>Alimentari</Tab>
-        //   </TabList>
-        //   <TabPanels>
-        //     <TabPanel>
-        //       <p>Falegname</p>
-        //     </TabPanel>
-        //     <TabPanel>
-        //       <p>Fabbrica</p>
-        //     </TabPanel>
-        //     <TabPanel>
-        //       <p>Calzolaio</p>
-        //     </TabPanel>
-        //     <TabPanel>
-        //       <p>Agricoltore</p>
-        //     </TabPanel>
-        //     <TabPanel>
-        //       <p>Alimentari</p>
-        //     </TabPanel>
-        //   </TabPanels>
-        // </Tabs>
-        // </div> */}
+            <li></li>*/}
 
       </div> 
 
