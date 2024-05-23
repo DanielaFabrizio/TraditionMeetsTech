@@ -49,8 +49,7 @@ function Home(){
                 
                 <picture className="responsive-img">
                     <source media="(min-width: 992px)" srcset="https://www.grandvintage.it/media/catalog/product/cache/470434027cf533a4d2808840ace2ec46/p/h/phpHcPADu.jpeg"/>
-                    <source media="(min-width: 767px)" srcset="https://i.postimg.cc/1RTdCYhB/appetizer-img-2.jpg"/>
-                    <source srcset="https://i.postimg.cc/TwnctQr7/appetizer-img-3.jpg"/>
+                   
                     <img src="https://www.grandvintage.it/media/catalog/product/cache/470434027cf533a4d2808840ace2ec46/p/h/phpHcPADu.jpeg" alt="Falegname"/>
                 </picture>     
                 
@@ -62,9 +61,6 @@ function Home(){
             <div class="coursemeal__div">
                 
                 <picture class="responsive-img">
-                    <source media="(min-width: 992px)" srcset="https://www.ilponte.com/wp-content/uploads/2022/05/Falegnameria.jpg"/>
-                    <source media="(min-width: 767px)" srcset="https://i.postimg.cc/9XYj186s/maindish-img-2.jpg"/>
-                    <source srcset="https://i.postimg.cc/pLY8dt4q/maindish-img-3.jpg"/>
                     <img src="https://www.ilponte.com/wp-content/uploads/2022/05/Falegnameria.jpg" alt="Main Course"/>
                 </picture> 
 
@@ -77,8 +73,6 @@ function Home(){
                 
                 <picture class="responsive-img">
                     <source media="(min-width: 992px)" srcset="https://www.homag.com/fileadmin/_processed_/2/c/csm_Digitalization-for-carpenters-and-woodworking-shops-Apps-and-assistants-from-HOMAG_6d62289de6.png"/>
-                    <source media="(min-width: 767px)" srcset="https://i.postimg.cc/FsRXBnKn/dessert-img-2.jpg"/>
-                    <source srcset="https://i.postimg.cc/ZKcFCVFZ/dessert-img-3.jpg"/>
                     <img src="https://www.homag.com/fileadmin/_processed_/2/c/csm_Digitalization-for-carpenters-and-woodworking-shops-Apps-and-assistants-from-HOMAG_6d62289de6.png" alt="Desserts"/>
                 </picture>
 
