@@ -3,8 +3,15 @@ import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import Paragrafo from './Paragrafo.jsx';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
+
 
 function JobsList(){
+    
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+      
     function scrollToParagraph() {
         var paragraph = document.getElementById("paragrafo");
         paragraph.scrollIntoView({ behavior: 'smooth' });

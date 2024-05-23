@@ -4,8 +4,13 @@ import Paragrafo from './Paragrafo.jsx';
 import Question from './Question.jsx';
 import Answer from './Answer.jsx';
 import Footer from './Footer.jsx';
+import { useEffect } from 'react';
 
 export default function Interviste({props}){
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
    
     return (
       <div className="body">
