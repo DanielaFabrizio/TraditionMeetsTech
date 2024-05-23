@@ -3,9 +3,6 @@ import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import Paragrafo from './Paragrafo.jsx';
 import { Link } from 'react-router-dom';
-import Calzolaio from '../components/Calzolaio.jsx';
-import Agricoltore from '../components/Agricoltore.jsx';
-import Costruttore from '../components/Costruttore.jsx';
 
 function JobsList(){
     function scrollToParagraph() {
@@ -16,7 +13,7 @@ function JobsList(){
     return (
     <div className="body">
          <Header onScroll={scrollToParagraph}
-     urlBackground='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRXK0LlzC4X5sn_v2mKFXaiWHeMH9bFDcOOw&s'/>
+     urlBackground='https://media.istockphoto.com/id/1206796363/it/foto/ai-machine-learning-mani-di-robot-e-umani-che-toccano-lo-sfondo-della-connessione-di-rete-dei.jpg?s=612x612&w=0&k=20&c=tmsrMB5_jSqmqKbWRj9QW5YNEvAubIDKYcCZOefW_P8='/>
 
 
         <Paragrafo text="L'avvento della tecnologia digitale ha imposto una trasformazione radicale a mestieri secolari, una metamorfosi che non è solo strumentale ma anche culturale e sociale. Mentre il mondo accelera inesorabilmente verso il futuro, mestieri come quelli del calzolaio, del falegname, del panettiere e dell'agricoltore si trovano al bivio tra estinzione e evoluzione.
