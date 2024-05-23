@@ -6,6 +6,9 @@ import Home from '../components/Home.jsx';
 import Pellettiere from '../components/Pellettiere.jsx';
 import Panettiere from '../components/Panettiere.jsx';
 import Falegname from '../components/Falegname.jsx';
+import Calzolaio from '../components/Calzolaio.jsx';
+import Agricoltore from '../components/Agricoltore.jsx';
+import Costruttore from '../components/Costruttore.jsx';
 
 function AppRouter() {
     return (
@@ -17,6 +20,9 @@ function AppRouter() {
                 <Route path="/Falegname" element={<Falegname/>} />
                 <Route path="/Pellettiere" element={<Pellettiere/>} />
                 <Route path="/Panettiere" element={<Panettiere/>} />
+                <Route path="/Calzolaio" element={<Calzolaio/>} />
+                <Route path="/Agricoltore" element={<Agricoltore/>} />
+                <Route path="/Costruttore" element={<Costruttore/>} />
             </Routes>
         </Router>
     );

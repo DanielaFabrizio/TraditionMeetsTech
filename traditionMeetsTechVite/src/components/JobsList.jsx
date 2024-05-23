@@ -2,8 +2,10 @@ import './JobsList.css';
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import Paragrafo from './Paragrafo.jsx';
-import Interviste from './Falegname.jsx';
 import { Link } from 'react-router-dom';
+import Calzolaio from '../components/Calzolaio.jsx';
+import Agricoltore from '../components/Agricoltore.jsx';
+import Costruttore from '../components/Costruttore.jsx';
 
 function JobsList(){
     function scrollToParagraph() {
@@ -52,9 +54,11 @@ function JobsList(){
                 </Link>
                 </div>
                 <div className="row">
+                <Link to="/Calzolaio">
                     <div class="cardJob" id="cardJob2">
                         <p class="c-txt">Calzolaio</p>
                     </div>
+                </Link>
                 </div>
             </div>
 
@@ -67,9 +71,11 @@ function JobsList(){
                 </Link>
                 </div>
                 <div className="row">
+                <Link to="/Agricoltore">
                     <div class="cardJob" id="cardJob4">
                         <p class="c-txt">Agricoltore</p>
                     </div>
+                </Link>
                 </div>
             </div>
 
@@ -82,9 +88,11 @@ function JobsList(){
                 </Link>
                 </div>
                 <div className="row">
+                <Link to="/Costruttore">
                     <div class="cardJob" id="cardJob6">
-                        <p class="c-txt">Studente</p>
+                        <p class="c-txt">Costruttore</p>
                     </div>
+                </Link>
                 </div>
             </div>
         </div>
