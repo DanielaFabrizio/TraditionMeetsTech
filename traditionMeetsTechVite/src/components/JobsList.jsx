@@ -2,7 +2,7 @@ import './JobsList.css';
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import Paragrafo from './Paragrafo.jsx';
-import Interviste from './Interviste.jsx';
+import Interviste from './Falegname.jsx';
 import { Link } from 'react-router-dom';
 
 function JobsList(){
@@ -45,7 +45,7 @@ function JobsList(){
         <div className="divisore">
             <div className="colonna">
                 <div className="row">
-                <Link to="/interviste">
+                <Link to="/Falegname">
                     <div class="cardJob" id="cardJob1">
                         <p class="c-txt">Falegname</p>
                     </div>
@@ -60,9 +60,11 @@ function JobsList(){
 
             <div className="colonna">
                 <div className="row">
+                <Link to="/Pellettiere">
                     <div class="cardJob" id="cardJob3">
                         <p class="c-txt">Pellettiere</p>
                     </div>
+                </Link>
                 </div>
                 <div className="row">
                     <div class="cardJob" id="cardJob4">
@@ -73,9 +75,11 @@ function JobsList(){
 
             <div className="colonna">
                 <div className="row">
+                <Link to="/Panettiere">
                     <div class="cardJob" id="cardJob5">
                         <p class="c-txt">Panettiere</p>
                     </div>
+                </Link>
                 </div>
                 <div className="row">
                     <div class="cardJob" id="cardJob6">
