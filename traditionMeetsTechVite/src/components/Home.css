@@ -144,6 +144,28 @@
 
 
 }
+
+/* ImageParagraph.css */
+
+.image-paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%; /* Puoi regolare la larghezza a tuo piacimento */
+    box-shadow: 0px 10px 6px -4px var(--colore-terra);
+    border-radius: 10px; /* Puoi modificare il raggio del bordo per renderlo più o meno arrotondato */
+    background: var(--colore-blu); /* Sfondo chiaro per il contenitore */
+}
+
+.image-paragraph img {
+    max-width: 100%; /* L'immagine non supera mai la larghezza del contenitore */
+    height: auto; /* L'altezza si adatta proporzionalmente */
+    border-radius: 10px; /* Stesso raggio del bordo del contenitore per continuità */
+}
+
+
 /*footer */
   .footer {
 	background-color: var(--colore-blu);
@@ -308,3 +330,62 @@ color: var(--colore-bianco);
         font-size: 25px;
     }    
 }
+
+/*bottone vai*/
+#button-studio{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+.cta {
+    border: none;
+    background: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .cta span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    padding-right: 15px;
+    text-transform: uppercase;
+  }
+  
+  .cta svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+  }
+  
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  
+  .cta:active svg {
+    transform: scale(0.9);
+  }
+  
+  .hover-underline-animation {
+    position: relative;
+    color: var(--colore-blu);
+    padding-bottom: 20px;
+  }
+  
+  .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--colore-blu);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
