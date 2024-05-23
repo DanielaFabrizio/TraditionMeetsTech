@@ -1,4 +1,6 @@
-export default function Footer({onScroll}){
+import { Link } from "react-router-dom";
+
+export default function Footer(){
     return(
         <div className="footer"> 
 
@@ -8,11 +10,12 @@ export default function Footer({onScroll}){
             </div>
             <div class="card-body">
                 <h5 class="card-title">Componenti del gruppo</h5>
-                <p class="card-text">Colacicco Laura | Daniela Fabrizio | Manuel Flagelli </p>
-                <button  onClick={onScroll}> 
+                <p class="card-text">Colacicco Laura | Fabrizio Daniela| Flagelli Manuel </p>
+                <Link to="/Relazione">
+                <button> 
                 <span class="box"> Curiosità sul progetto!! </span>
                 </button>
-            
+                </Link>
             </div>
             
             </div>

@@ -9,6 +9,7 @@ import Falegname from '../components/Falegname.jsx';
 import Calzolaio from '../components/Calzolaio.jsx';
 import Agricoltore from '../components/Agricoltore.jsx';
 import Costruttore from '../components/Costruttore.jsx';
+import Relazione from '../components/Relazione.jsx';
 
 function AppRouter() {
     return (
@@ -23,6 +24,8 @@ function AppRouter() {
                 <Route path="/Calzolaio" element={<Calzolaio/>} />
                 <Route path="/Agricoltore" element={<Agricoltore/>} />
                 <Route path="/Costruttore" element={<Costruttore/>} />
+                <Route path="/Relazione" element={<Relazione/>} />
+
             </Routes>
         </Router>
     );

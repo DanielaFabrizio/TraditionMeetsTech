@@ -1,15 +1,23 @@
-export default function Header({onScroll, urlBackground}){
+import { Link } from "react-router-dom";
+
+export default function Header({urlBackground}){
     const background= {backgroundImage: `url(${urlBackground})`};
     return(
         <div className="header" style={background}>
         <div class="overlay">
           <h1>Tradition Meets Tech</h1>
-          <h3>Reasons for Choosing US</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab.</p>
           <br />
-          <button  onClick={onScroll}> 
-                <span class="box"> Hover! </span>
+          <h3>Conseguenze della digitalizzazione</h3>
+          <br />
+          <p>Come hanno reagito le aziende al cambiamento tecnologico, gli aspetti positivi e negativi del progresso nell'era moderna</p>
+          <br /> <br /> <br /> <br />
+         
+         
+          <Link to="/" >
+          <button> 
+                <span class="box"> Vai alla home! </span>
           </button>
+          </Link>
         </div>
       </div>
     )
