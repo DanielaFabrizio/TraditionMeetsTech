@@ -6,8 +6,15 @@ import { Link } from 'react-router-dom';
 import Calzolaio from '../components/Calzolaio.jsx';
 import Agricoltore from '../components/Agricoltore.jsx';
 import Costruttore from '../components/Costruttore.jsx';
+import { useEffect } from 'react';
+
 
 function JobsList(){
+    
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+      
     function scrollToParagraph() {
         var paragraph = document.getElementById("paragrafo");
         paragraph.scrollIntoView({ behavior: 'smooth' });
