@@ -3,9 +3,6 @@ import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import Paragrafo from './Paragrafo.jsx';
 import { Link } from 'react-router-dom';
-import Calzolaio from '../components/Calzolaio.jsx';
-import Agricoltore from '../components/Agricoltore.jsx';
-import Costruttore from '../components/Costruttore.jsx';
 import { useEffect } from 'react';
 
 
