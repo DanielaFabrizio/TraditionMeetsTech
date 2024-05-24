@@ -15,7 +15,7 @@ export default function Calzolaio(){
     return ( 
       <div className="body">
         <Header 
-        urlBackground='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRXK0LlzC4X5sn_v2mKFXaiWHeMH9bFDcOOw&s'/>
+        urlBackground='https://a.mktgcdn.com/p/dVqNSpQXfuKKTUoVSEiFXpEtVFAFC_yb_Cqqipn6cnk/509x331.png'/>
         
         <Paragrafo text="testo"
         textTitle="titolo"

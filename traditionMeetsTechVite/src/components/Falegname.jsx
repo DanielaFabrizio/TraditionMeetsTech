@@ -15,7 +15,7 @@ export default function Interviste({props}){
     return ( 
       <div className="body">
         <Header 
-        urlBackground='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRXK0LlzC4X5sn_v2mKFXaiWHeMH9bFDcOOw&s'/>
+        urlBackground='https://mlgxnmse8r6y.i.optimole.com/w:auto/h:auto/q:mauto/f:best/https://www.falegnameriacolacicco.it/web/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-13-at-08.43.43-2.jpeg'/>
         
         <Paragrafo text="testo"
         textTitle="titolo"

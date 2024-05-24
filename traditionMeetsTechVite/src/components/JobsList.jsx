@@ -20,7 +20,7 @@ function JobsList(){
     return (
     <div className="body">
          <Header onScroll={scrollToParagraph}
-     urlBackground='https://media.istockphoto.com/id/1206796363/it/foto/ai-machine-learning-mani-di-robot-e-umani-che-toccano-lo-sfondo-della-connessione-di-rete-dei.jpg?s=612x612&w=0&k=20&c=tmsrMB5_jSqmqKbWRj9QW5YNEvAubIDKYcCZOefW_P8='/>
+     urlBackground='https://www.miacademy.it/wp-content/uploads/2020/10/impastare-il-pane.jpg'/>
 
 
         <Paragrafo text="L'avvento della tecnologia digitale ha imposto una trasformazione radicale a mestieri secolari, una metamorfosi che non è solo strumentale ma anche culturale e sociale. Mentre il mondo accelera inesorabilmente verso il futuro, mestieri come quelli del calzolaio, del falegname, del panettiere e dell'agricoltore si trovano al bivio tra estinzione e evoluzione.
@@ -51,14 +51,14 @@ function JobsList(){
         <div className="divisore">
             <div className="colonna">
                 <div className="row">
-                <Link to="/Falegname">
+                <Link to="/Falegname" className="linkStyle">
                     <div class="cardJob" id="cardJob1">
                         <p class="c-txt">Falegname</p>
                     </div>
                 </Link>
                 </div>
                 <div className="row">
-                <Link to="/Calzolaio">
+                <Link to="/Calzolaio" className="linkStyle">
                     <div class="cardJob" id="cardJob2">
                         <p class="c-txt">Calzolaio</p>
                     </div>
@@ -68,14 +68,14 @@ function JobsList(){
 
             <div className="colonna">
                 <div className="row">
-                <Link to="/Pellettiere">
+                <Link to="/Pellettiere" className="linkStyle">
                     <div class="cardJob" id="cardJob3">
                         <p class="c-txt">Pellettiere</p>
                     </div>
                 </Link>
                 </div>
                 <div className="row">
-                <Link to="/Agricoltore">
+                <Link to="/Agricoltore" className="linkStyle">
                     <div class="cardJob" id="cardJob4">
                         <p class="c-txt">Agricoltore</p>
                     </div>
@@ -85,14 +85,14 @@ function JobsList(){
 
             <div className="colonna">
                 <div className="row">
-                <Link to="/Panettiere">
+                <Link to="/Panettiere" className="linkStyle">
                     <div class="cardJob" id="cardJob5">
                         <p class="c-txt">Panettiere</p>
                     </div>
                 </Link>
                 </div>
                 <div className="row">
-                <Link to="/Costruttore">
+                <Link to="/Costruttore" className="linkStyle">
                     <div class="cardJob" id="cardJob6">
                         <p class="c-txt">Costruttore</p>
                     </div>
@@ -101,11 +101,18 @@ function JobsList(){
             </div>
         </div>
 
-        <Paragrafo text="lorem "
-        textTitle=" titolooo"
-        sezioneId=""/>
+        <div id='button-studio'>
+            <Link to="/jobs-list" className="cta">
+            
+                    <span class="hover-underline-animation"> Vai allo studio </span>
+                    <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 46 16">
+                    <path id="Path_10" data-name="Path 10" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" transform="translate(30)"></path>
+                    </svg>
+            
+            </Link>
+        </div>
 
-        <Footer onScroll={scrollToParagraph}/>
+        <Footer/>
 
     </div>  
     );

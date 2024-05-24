@@ -15,7 +15,7 @@ export default function Interviste({props}){
     return (
       <div className="body">
         <Header 
-        urlBackground='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRXK0LlzC4X5sn_v2mKFXaiWHeMH9bFDcOOw&s'/>
+        urlBackground='https://www.turismo.it/typo3temp/pics/5a3a9bfe84.jpg'/>
         
         <Paragrafo text="testo"
         textTitle="titolo"

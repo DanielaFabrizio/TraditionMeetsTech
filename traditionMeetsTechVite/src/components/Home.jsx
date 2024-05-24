@@ -52,7 +52,7 @@ function Home(){
                 </picture>     
                 
                 <div class="coursemeal-info">
-                    <a href="#" class="coursemeal-info__link"> 1800</a>
+                    <p class="coursemeal-info__link"> 1800</p>
                 </div>
             </div>
 
@@ -63,7 +63,7 @@ function Home(){
                 </picture> 
 
                 <div class="coursemeal-info">
-                    <a href="#" class="coursemeal-info__link"> 2000</a>
+                    <p class="coursemeal-info__link"> 2000</p>
                 </div>            
             </div>
 
@@ -75,7 +75,7 @@ function Home(){
                 </picture>
 
                 <div class="coursemeal-info">
-                    <a href="#" class="coursemeal-info__link"> 2024</a>
+                    <p class="coursemeal-info__link"> 2024</p>
                 </div>              
             </div>
 
@@ -97,9 +97,11 @@ function Home(){
         textTitle="Monitoraggio e Controllo dei Lavoratori"
         sezioneId="sezione3"/>
 
-      <div className="image-paragraph">
-         <img src="https://blog.industrialdiscount.it/wp-content/uploads/2021/07/Agricoltura-nessuna-agevolazione-saldo-IMU-per-i-coadiuvanti-.jpg" alt="" />
-      </div>
+        <div  id="sezione" className='sezione'>
+          <div className="image-paragraph"> 
+            <img className='' src="https://www.redseguridad.com/wp-content/uploads/sites/2/2022/03/normativa-y-legislacion-en-ciberseguridad-900x600.jpg" alt="sicurezza" />
+          </div>
+        </div>
 
       <Paragrafo text="Per sfruttare appieno le opportunità offerte dalla digitalizzazione, è fondamentale investire nella formazione e nella riqualificazione dei lavoratori. Le competenze digitali devono essere integrate nei programmi educativi e di formazione professionale, e i lavoratori devono essere incoraggiati a sviluppare competenze trasversali come il problem solving, la collaborazione e la gestione dei dati.
                   Programmi di riqualificazione specifici possono aiutare i lavoratori dei settori tradizionali a transizione verso ruoli in cui le competenze digitali sono essenziali. Ad esempio, corsi di formazione in programmazione, gestione dei dati e manutenzione dei sistemi robotici possono offrire nuove opportunità a coloro i cui lavori sono stati automatizzati."

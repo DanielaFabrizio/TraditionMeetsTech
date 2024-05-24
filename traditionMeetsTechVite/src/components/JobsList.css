@@ -53,9 +53,12 @@
     border-radius: 100%;
     transition: all 0.7s ease-in-out;
 }
-
+.linkStyle{
+    text-decoration: none;
+}
 .c-txt {
-    z-index: 2;
+    z-index: 5;
+
 }
 
 .cardJob:hover::before {
@@ -88,7 +91,7 @@
 	background-size: cover;
 }
 #cardJob6{
-	background-image: url('https://media.istockphoto.com/id/1444388569/photo/asian-womans-hand-studying-for-qualifications.webp?b=1&s=170667a&w=0&k=20&c=ZczR_dqPeHxpENBf6lcZNABgOdZVfadwMkUZmnOc5Fc=');
+	background-image: url('https://www.euroformation.it/wp-content/uploads/2020/07/corso-di-formazione-lavorare-come-muratore-euroformation-scuola-di-formazione-digitale-e-corsi-online.jpg');
 	background-size: cover;
 }
 

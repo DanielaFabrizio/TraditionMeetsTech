@@ -147,24 +147,38 @@
 }
 
 /* ImageParagraph.css */
-
-.image-paragraph {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    margin: 20px auto;
-    width: 70%; /* Puoi regolare la larghezza a tuo piacimento */
-    box-shadow: 0px 10px 6px -4px var(--colore-terra);
-    border-radius: 10px; /* Puoi modificare il raggio del bordo per renderlo più o meno arrotondato */
-    background: var(--colore-blu); /* Sfondo chiaro per il contenitore */
+.image-paragraph{
+  height: 500px; 
+  width: 75%;
+  margin: 0 auto;  
+  box-shadow: -1px 9px 18px -5px rgba(17,17,17,1);
+  overflow: hidden;
+  background-color: var(--colore-blu);
+  position: relative;
+  margin-bottom: 5%;
+  margin-top: 5%
 }
 
 .image-paragraph img {
-    max-width: 100%; /* L'immagine non supera mai la larghezza del contenitore */
-    height: auto; /* L'altezza si adatta proporzionalmente */
-    border-radius: 10px; /* Stesso raggio del bordo del contenitore per continuità */
+  width: 100%;
 }
+/* .image-paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px auto;
+    width: 50%; 
+    box-shadow: 0px 10px 6px -4px var(--colore-terra);
+    border-radius: 10px; 
+    background: var(--colore-nero); 
+} */
+
+/* .image-paragraph img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+} */
 
 
 /*footer */
@@ -258,10 +272,9 @@ color: var(--colore-bianco);
     transition: all 0.4s;
 }
 
-.coursemeal-info__link:link,
-.coursemeal-info__link:visited {
+.coursemeal-info__link {
     font-family: var(--font-testo);
-    font-size: 30px;
+    font-size: 40px;
     color: var(--colore-bianco);
     text-align: center;
     letter-spacing: 1.8px;
@@ -334,6 +347,7 @@ color: var(--colore-bianco);
 
 /*bottone vai*/
 #button-studio{
+  margin-top: 5%;
     display: flex;
     justify-content: center;
     padding-bottom: 10%;

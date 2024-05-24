@@ -15,7 +15,7 @@ export default function Costruttore(){
     return ( 
       <div className="body">
         <Header 
-        urlBackground='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRXK0LlzC4X5sn_v2mKFXaiWHeMH9bFDcOOw&s'/>
+        urlBackground='https://www.euroformation.it/wp-content/uploads/2020/07/corso-di-formazione-lavorare-come-muratore-euroformation-scuola-di-formazione-digitale-e-corsi-online.jpg'/>
         
         <Paragrafo text="testo"
         textTitle="titolo"

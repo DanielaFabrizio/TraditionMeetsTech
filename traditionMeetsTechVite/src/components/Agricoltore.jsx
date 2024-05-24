@@ -15,7 +15,7 @@ export default function Agricoltore(){
     return ( 
       <div className="body">
         <Header 
-        urlBackground='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRXK0LlzC4X5sn_v2mKFXaiWHeMH9bFDcOOw&s'/>
+        urlBackground='https://illegumedeisassi.com/wp-content/uploads/2022/10/no-one-cares-l_5MJnbrmrs-unsplash-1536x1152.jpg'/>
         
         <Paragrafo text="testo"
         textTitle="titolo"

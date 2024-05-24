@@ -6,15 +6,12 @@ import { Link } from 'react-router-dom';
 import JobsList from './JobsList.jsx';
 
 function Home(){
-    function scrollToParagraph() {
-        var paragraph = document.getElementById("paragrafo");
-        paragraph.scrollIntoView({ behavior: 'smooth' });
-      }
+   
 
     return (
     <div className="body">
-     <Header onScroll={scrollToParagraph}
-     urlBackground='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRXK0LlzC4X5sn_v2mKFXaiWHeMH9bFDcOOw&s'/>
+     <Header 
+     urlBackground='https://www.bizplace.it/wp-content/uploads/2019/09/foto.png'/>
 
       
       <Paragrafo text="L'idea del progetto è nata osservando attentamente la realtà che ci circonda e notando i profondi cambiamenti che le aziende locali hanno subito negli ultimi anni. La trasformazione digitale ha rivoluzionato il modo in cui le imprese operano, comunicano e interagiscono con i clienti. 
@@ -28,6 +25,48 @@ function Home(){
         textTitle="Creazione pagina web"
         sezioneId="sezione"
         sezioneEnd="paragrafoEnd"/>
+      <div  id="sezione" className='sezione'>
+
+        <div class="demo coursemeal">
+            <div class="coursemeal__div ">
+                
+                <picture className="responsive-img">
+                    <source media="(min-width: 992px)" srcset="https://www.liceozucchi.it/wp-content/uploads/2022/09/relazione-di-successo.jpg"/>
+                  
+                    <img src="https://www.liceozucchi.it/wp-content/uploads/2022/09/relazione-di-successo.jpg" alt=""/>
+                </picture>     
+                
+                <div class="coursemeal-info">
+                    <p class="coursemeal-info__link"> Ricerca</p>
+                </div>
+            </div>
+
+            <div class="coursemeal__div">
+                
+                <picture class="responsive-img">
+                    <img src="https://miro.medium.com/v2/resize:fit:740/0*4HxmoUyeXbMQDOtu.png" alt=""/>
+                </picture> 
+
+                <div class="coursemeal-info">
+                    <p class="coursemeal-info__link">Programmazione </p>
+                </div>            
+            </div>
+
+            <div class="coursemeal__div">
+                
+                <picture class="responsive-img">
+                    <source media="(min-width: 992px)" srcset="https://www.tidio.com/wp-content/uploads/13-chatbot-builder.png"/>
+                    <img src="https://www.tidio.com/wp-content/uploads/13-chatbot-builder.png" alt=""/>
+                </picture>
+
+                <div class="coursemeal-info">
+                    <p class="coursemeal-info__link"> Chatbot </p>
+                </div>              
+            </div>
+
+
+          </div>
+        </div>
 
       <Paragrafo text="La chatbot è stata sviluppata per fornire risposte immediate e precise alle domande degli utenti, migliorando l'esperienza interattiva sulla pagina web.
         E' stata sviluppata utilizzando la piattaforma Tidio e, sfruttando l'intelligenza artificiale, è stata istruita e allenata sul tema della digitalizzazione. 
@@ -43,7 +82,7 @@ function Home(){
 
       
 
-      <Footer onScroll={scrollToParagraph}/>
+      <Footer/>
 
     </div>  
     );

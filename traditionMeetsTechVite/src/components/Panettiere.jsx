@@ -15,7 +15,7 @@ export default function Interviste({props}){
     return ( 
       <div className="body">
         <Header 
-        urlBackground='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRXK0LlzC4X5sn_v2mKFXaiWHeMH9bFDcOOw&s'/>
+        urlBackground='https://www.miacademy.it/wp-content/uploads/2020/10/impastare-il-pane.jpg'/>
         
         <Paragrafo text="testo"
         textTitle="titolo"
