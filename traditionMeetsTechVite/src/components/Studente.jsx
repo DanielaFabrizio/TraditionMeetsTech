@@ -6,7 +6,7 @@ import Answer from './Answer.jsx';
 import Footer from './Footer.jsx';
 import { useEffect } from 'react';
 
-export default function Pellettiere(){
+export default function Interviste({props}){
   
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -59,10 +59,7 @@ export default function Pellettiere(){
           <Question question="C'è qualcosa che avrebbe fatto diversamente in termini di adattamento digitale, se potesse tornare indietro?" sezioneId="domanda1" />
           <Answer answer="Se potessi tornare indietro avrei investito molto prima nei strumenti digitali e soprattutto nelle vendite online. " sezioneId="risposta1"/>
 
-        
-
-
-
+    
           
         </div>
       

@@ -5,7 +5,7 @@ import Paragrafo from './Paragrafo.jsx';
 import { Link } from 'react-router-dom';
 import JobsList from './JobsList.jsx';
 
-function Home(){
+function Relazione(){
    
 
     return (
@@ -88,4 +88,4 @@ function Home(){
     );
   }
   
-  export default Home;
+  export default Relazione;

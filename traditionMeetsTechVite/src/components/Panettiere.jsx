@@ -6,7 +6,7 @@ import Answer from './Answer.jsx';
 import Footer from './Footer.jsx';
 import { useEffect } from 'react';
 
-export default function Interviste({props}){
+export default function Panettiere(){
 
   useEffect(() => {
     window.scrollTo(0, 0);
