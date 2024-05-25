@@ -17,8 +17,8 @@ export default function Calzolaio(){
         <Header 
         urlBackground='https://a.mktgcdn.com/p/dVqNSpQXfuKKTUoVSEiFXpEtVFAFC_yb_Cqqipn6cnk/509x331.png'/>
         
-        <Paragrafo text="testo"
-        textTitle="titolo"
+        <Paragrafo text="Andrea Russo, calzolaio iscritto all'albo dal 1996 e 'figlio d'arte', ha trasformato la sua attività sfruttando social media e tecnologie digitali. In questa intervista, ci racconta come ha integrato il digitale nel suo mestiere tradizionale, mantenendo un forte legame con i clienti."
+        textTitle="Un Calzolaio Tradizionale nell'Era Digitale"
         sezioneId="sezione"/>
 
         <div className='contIntervista'>

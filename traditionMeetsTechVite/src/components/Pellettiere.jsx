@@ -17,8 +17,8 @@ export default function Pellettiere(){
         <Header 
         urlBackground='https://www.turismo.it/typo3temp/pics/5a3a9bfe84.jpg'/>
         
-        <Paragrafo text="testo"
-        textTitle="titolo"
+        <Paragrafo text="Angelica e il marito hanno trasformato la loro attività artigianale in un'azienda moderna, integrando tecnologie digitali e piattaforme online. Con quasi 30 anni di esperienza, continuano a offrire prodotti unici e di qualità. In questa intervista, Angelica condivide il loro percorso e le sfide affrontate."
+        textTitle="Tradizione Artigianale e Tecnologie Moderne nella Pelletteria"
         sezioneId="sezione"/>
 
         <div className='contIntervista'>
