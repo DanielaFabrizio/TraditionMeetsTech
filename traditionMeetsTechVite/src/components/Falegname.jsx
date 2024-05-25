@@ -17,8 +17,8 @@ export default function Falegname(){
         <Header 
         urlBackground='https://mlgxnmse8r6y.i.optimole.com/w:auto/h:auto/q:mauto/f:best/https://www.falegnameriacolacicco.it/web/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-13-at-08.43.43-2.jpeg'/>
         
-        <Paragrafo text="testo"
-        textTitle="titolo"
+        <Paragrafo text="Luca, artigiano del legno di terza generazione, ha trasformato il suo mestiere tradizionale integrando tecnologie digitali e strumenti online. In questa intervista, esplora come il digitale ha migliorato la precisione del suo lavoro e rafforzato la relazione con i clienti."
+        textTitle="Innovazione Digitale nell'Artigianato del Legno"
         sezioneId="sezione"/>
 
         <div className='contIntervista'>
