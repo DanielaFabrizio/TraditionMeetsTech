@@ -81,13 +81,7 @@ function JobsList(){
                     </div>
                 </Link>
                 </div>
-                <div className="row">
-                <Link to="/Agricoltore" className="linkStyle">
-                    <div class="cardJob" id="cardJob7">
-                        <p class="c-txt">Studente</p>
-                    </div>
-                </Link>
-                </div>
+                
             </div>
 
             <div className="colonna">
@@ -109,7 +103,9 @@ function JobsList(){
         </div>
 
         
-
+        <Paragrafo text=""
+        textTitle=""
+        sezioneId="sezione"/>
         <Footer/>
 
     </div>  
