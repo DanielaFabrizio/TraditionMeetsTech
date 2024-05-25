@@ -57,8 +57,16 @@ export default function Pellettiere(){
           <Answer answer="Oggi se dovessi dare dei consigli a qualcuno che vuole aprire un'attività simile alla mia direi prima di tutto avere delle capacità informatiche e di esser sempre consapevoli di quanto il mercato cambia, e dopo consiglierei di imparare il lavoro prima senza supporto della tecnologia e dopo con la tecnologia per capire bene il processo produttivo e cosa ha portato l'integrazione dei sistemi informatici." sezioneId="risposta1"/>
 
           <Question question="C'è qualcosa che avrebbe fatto diversamente in termini di adattamento digitale, se potesse tornare indietro?" sezioneId="domanda1" />
-          <Answer answer="Se potessi tornare indietro avrei investito molto prima nei strumenti digitali e soprattutto nelle vendite online. " sezioneId="risposta1"/>
+          <Answer answer="Se potessi tornare indietro avrei investito molto prima nei strumenti digitali e soprattutto nelle vendite online. " sezioneId="risposta1"/>
 
+          <Question question="Come ha integrato l'automazione e i sistemi informatici nella catena di produzione per aumentare l'efficienza?" sezioneId="domanda1" />
+          <Answer answer="In realtà gran parte dei macchinari sono stati introdotti non per aumentare l'efficienza ma per darci la possibilità di produrre nuove linee di prodotti e permetterci nuove lavorazioni. Inizialmente in azienda non avevamo macchinari ma tutta la produzione era manuale, nel tempo ci siamo modernizzati soprattutto per adattarci ai cambiamenti del mercato. La nostra azienda produceva per la maggior parte album fotografici e bomboniere per matrimoni ma lo sviluppo delle tecnologie ha reso questi articoli meno richiesti poiché sostituiti in gran parte da prodotti digitali. " sezioneId="risposta1"/>
+
+          <Question question="Quali sfide ha affrontato nell'integrare le tecnologie digitali nel processo produttivo tradizionale?" sezioneId="domanda1" />
+          <Answer answer="Non sempre è stato facile, mio marito si è occupato di comprendere i funzionamenti dei nuovi macchinari in azienda, spesso son passate settimane prima che riuscissimo a comprendere totalmente le loro potenzialità, altre volte è stato necessario il supporto di alcuni tecnici, tuttavia l'azienda ha sempre supportato questi tipi di cambiamenti quindi tutti i collaboratori hanno sviluppato una sorta di flessibilità. " sezioneId="risposta1"/>
+
+          <Question question="Qual è l'impatto delle recensioni sul tuo business e come risponde alle critiche?" sezioneId="domanda1" />
+          <Answer answer="	Una delle sfide da affrontare nella vendita online è proprio quella delle recensioni, spesso si deve affrontare un giudizio che non è conforme all'impegno che si applica. Tendenzialmente quando riceviamo delle critiche cerchiamo sempre di esporre il nostro punto di vista e di spiegare quali sono i retroscena della lavorazione (offrendo anche possibilità di rimborsi o cambi articoli). La tecnologia separa i volti e i rapporti umani, esporre un commento negativo è più facile quando si è dietro uno schermo ma cerchiamo di far comprendere che dall'altra parte ci sono delle persone che ogni giorno si impegnano nel loro lavoro per offrire il miglior servizio possibile, certo non sempre si piace a tutti ma anche questo è parte della diversità umana. " sezioneId="risposta1"/>
         
 
 

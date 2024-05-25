@@ -51,16 +51,20 @@ export default function Costruttore(){
           <Answer answer="Essendo prettamente manuale e specifico per ogni situazione non penso sia replicabile solo con il digitale" sezioneId="risposta1"/>
 
           <Question question="Quali sono le maggiori sfide che prevede per il suo mestiere nell'era digitale nei prossimi anni?" sezioneId="domanda1" />
-          <Answer answer="ciao a tutti" sezioneId="risposta1"/>
+          <Answer answer="Nell'era digitale dei prossimi anni, le principali sfide per un'impresa edile come la mia includono l'adozione delle nuove tecnologie, la gestione della concorrenza online, la tutela dei dati e la conformità normativa. È essenziale adattarsi rapidamente ai cambiamenti e distinguersi attraverso l'innovazione e la qualità del servizio per restare competitivi." sezioneId="risposta1"/>
 
           <Question question="Come si immagina il futuro del suo mestiere? Vede un'ulteriore evoluzione o integrazione con il digitale?" sezioneId="domanda1" />
-          <Answer answer="ciao a tutti" sezioneId="risposta1"/>
+          <Answer answer="Mi immagino il futuro del mio mestiere come un'ulteriore evoluzione che sarà strettamente integrata con il digitale. Prevedo che le nuove tecnologie continueranno a giocare un ruolo sempre più importante nel settore edile, migliorando l'efficienza operativa e la precisione nei progetti di costruzione" sezioneId="risposta1"/>
 
           <Question question="Quali consigli darebbe a qualcuno che vuole entrare nel suo campo di lavoro oggi?" sezioneId="domanda1" />
-          <Answer answer="ciao a tutti" sezioneId="risposta1"/>
+          <Answer answer=" I consigli principali che potrei dare a chi vuole entrare nel settore edile sono: 
+	                          Esperienza pratica: suggerirei di cercare opportunità per lavorare sul campo per acquisire competenze pratiche.
+                            Specializzazioni: consiglierei di specializzarsi in un settore specifico dell'edilizia per distinguersi dagli altri professionisti.
+                            Networking: inviterei a partecipare a eventi del settore edile, fiere commerciali e associazioni professionali per creare connessioni utili.
+                            Aggiornamento continuo: sottolineerei l'importanza di rimanere aggiornati sulle nuove tecnologie, regolamenti e tendenze del settore edile per essere competitivi" sezioneId="risposta1"/>
 
           <Question question="C'è qualcosa che avrebbe fatto diversamente in termini di adattamento digitale, se potesse tornare indietro?" sezioneId="domanda1" />
-          <Answer answer="ciao a tutti" sezioneId="risposta1"/>
+          <Answer answer="Sicuramente, fortunatamente il lavoro non manca, ma penso che la mia fortuna sia stata essere nato nel momento giusto e avere già una base solida durante lo sviluppo tecnologico, tuttavia comprendere prima le potenzialità di alcuni strumenti avrebbe sicuramente migliorato la qualità del lavoro." sezioneId="risposta1"/>
           
         </div>
       
