@@ -70,8 +70,8 @@ function Home(){
             <div class="coursemeal__div">
                 
                 <picture class="responsive-img">
-                    <source media="(min-width: 992px)" srcset="https://www.altoadigeinnovazione.it/wp-content/uploads/2017/02/artigianato-digitale.jpg"/>
-                    <img src="https://www.altoadigeinnovazione.it/wp-content/uploads/2017/02/artigianato-digitale.jpg" alt=""/>
+                    <source media="(min-width: 992px)" srcset="https://www.mecomnet.com/wp-content/uploads/2023/04/main2.jpg"/>
+                    <img src="https://www.mecomnet.com/wp-content/uploads/2023/04/main2.jpg" alt=""/>
                 </picture>
 
                 <div class="coursemeal-info">

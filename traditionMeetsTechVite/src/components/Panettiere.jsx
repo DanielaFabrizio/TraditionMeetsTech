@@ -17,8 +17,8 @@ export default function Panettiere(){
         <Header 
         urlBackground='https://www.miacademy.it/wp-content/uploads/2020/10/impastare-il-pane.jpg'/>
         
-        <Paragrafo text="testo"
-        textTitle="titolo"
+        <Paragrafo text="Roberto, panettiere e titolare di un negozio di alimentari, ha adattato l'attività di famiglia ai tempi moderni sfruttando strumenti digitali e mantenendo un servizio personalizzato. In questa intervista, ci racconta la sua esperienza e visione futura."
+        textTitle="Innovazione nel Negozio di Alimentari"
         sezioneId="sezione"/>
 
         <div className='contIntervista'>

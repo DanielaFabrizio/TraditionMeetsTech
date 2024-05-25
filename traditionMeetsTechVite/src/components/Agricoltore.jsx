@@ -17,14 +17,14 @@ export default function Agricoltore(){
         <Header 
         urlBackground='https://illegumedeisassi.com/wp-content/uploads/2022/10/no-one-cares-l_5MJnbrmrs-unsplash-1536x1152.jpg'/>
         
-        <Paragrafo text="testo"
-        textTitle="titolo"
+        <Paragrafo text="Giuseppe, guidato dal suocero, gestisce un'azienda agricola che produce cereali, legumi e foraggi. Ha integrato strumenti digitali per modernizzare e migliorare l'efficienza della sua attività. In questa intervista, condivide la sua esperienza e le sfide del settore."
+        textTitle="Coltivando Innovazione e Tradizione nel Cuore della Terra"
         sezioneId="sezione"/>
 
         <div className='contIntervista'>
           
           <Question question="Potrebbe descrivere in breve la natura del suo mestiere e come è entrato in questo campo di lavoro?" sezioneId="domanda1" />
-          <Answer answer="Sono Giuseppe, un produttore all'ingrosso e al dettaglio di: cereali, legumi, foraggi, olio evo, ecc... Mi sono interessata a questo settore grazie a mio suocero che mi ha guidato e sostenuto in questa scelta." sezioneId="risposta1"/>
+          <Answer answer="Sono Giuseppe, un produttore all'ingrosso e al dettaglio di: cereali, legumi, foraggi, olio evo, ecc... Mi sono interessato a questo settore grazie a mio suocero che mi ha guidato e sostenuto in questa scelta." sezioneId="risposta1"/>
 
           <Question question="Ha integrato strumenti digitali (come siti web, social media, o app) nella sua attività? Se sì, come?" sezioneId="domanda1" />
           <Answer answer="Sì, ho integrato con un sito web illustrativo e gestisco una pagina Instagram. La vendita online è esclusiva dei nostri clienti poiché ho scelto di non implementarla direttamente sul nostro sito web." sezioneId="risposta1"/>

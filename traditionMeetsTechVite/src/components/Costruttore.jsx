@@ -17,14 +17,14 @@ export default function Costruttore(){
         <Header 
         urlBackground='https://www.euroformation.it/wp-content/uploads/2020/07/corso-di-formazione-lavorare-come-muratore-euroformation-scuola-di-formazione-digitale-e-corsi-online.jpg'/>
         
-        <Paragrafo text="testo"
-        textTitle="titolo"
+        <Paragrafo text="Domenico, titolare di un'azienda edile con quasi 25 anni di esperienza, condivide come ha integrato strumenti digitali e tecnologie moderne nella riparazione e ristrutturazione di esterni, migliorando sicurezza ed efficienza. In questa intervista, esplora il rapporto tra tradizione e innovazione nel settore edile."
+        textTitle="Innovazione nell'Edilizia Tradizionale"
         sezioneId="sezione"/>
 
         <div className='contIntervista'>
           
           <Question question="Potrebbe descrivere in breve la natura del suo mestiere e come è entrato in questo campo di lavoro?" sezioneId="domanda1" />
-          <Answer answer="Sono il titolare di una impresa edile che si occupa maggiormente di riparazione e ristrutturazione di esterni. Mio padre faceva questo mestiere così ho iniziato sin da piccolo a lavorare in questo campo, fino a provare ad aprirmi un azienda ormai quasi 25 anni fa, subito dopo il matrimonio." sezioneId="risposta1"/>
+          <Answer answer="Sono Domenico, il titolare di una impresa edile che si occupa maggiormente di riparazione e ristrutturazione di esterni. Mio padre faceva questo mestiere così ho iniziato sin da piccolo a lavorare in questo campo, fino a provare ad aprirmi un azienda ormai quasi 25 anni fa, subito dopo il matrimonio." sezioneId="risposta1"/>
 
           <Question question="Ha integrato strumenti digitali (come siti web, social media, o app) nella sua attività? Se sì, come?" sezioneId="domanda1" />
           <Answer answer="Ho col tempo dovuto integrare strumenti digitali maggiormente fatturazione elettronica e pec, in piccola parte software e correlati visualizzatori per la progettazione degli interni o per la prospettiva del lavoro compiuto, prima di svolgerlo" sezioneId="risposta1"/>
